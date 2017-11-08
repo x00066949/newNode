@@ -1,0 +1,27 @@
+{
+  "name": "simple_rest_app",
+  "version": "1.0.0",
+  "description": "my first node api app",
+  "main": "index.js",
+  "scripts": {
+
+    "test": "node test/index.js",
+    "build": "babel watson.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "babel": "^6.23.0",
+    "body-parser": "*",
+    "express": "*",
+    "jsonwebtoken": "^8.1.0",
+    "mongoose": "*",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
+  },
+  "author": "Mariam",
+  "license": "ISC"
+}
